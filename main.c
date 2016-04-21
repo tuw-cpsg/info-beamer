@@ -1563,8 +1563,8 @@ int main(int argc, char *argv[]) {
     GLenum err = glewInit();
     if (err != GLEW_OK)
         die("cannot initialize glew");
-    if (!glewIsSupported("GL_VERSION_3_0"))
-        die("need opengl 3.0 support\n");
+    // if (!glewIsSupported("GL_VERSION_3_0"))
+    //     die("need opengl 3.0 support\n");
 
     if (fullscreen)
         glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);

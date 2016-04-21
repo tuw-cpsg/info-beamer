@@ -12,7 +12,19 @@ The complete documentation is available on [info-beamer.com](https://info-beamer
 Installation
 ------------
 
-See the [documentation](https://info-beamer.com/doc/info-beamer#installing-info-beamer) for more information.
+Works with [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) from
+2016-03-18 (on).
 
-Please note that *this version won't run on the Raspberry PI*, since it only provides OpenGLES2.0, which this
-version doesn't support. To use info-beamer on the PI, visit https://info-beamer.com/pi
+Activate the opengl driver and provide some memory to the GPU with raspi-config.
+
+Install dependencies:
+
+  apt-get install liblua5.1-dev
+    libevent-dev libglfw3-dev
+    libglew1.5-dev libftgl-dev libavcodec-dev
+    libswscale-dev libavformat-dev libdevil-dev
+    libxrandr-dev libxi-dev lua5.1
+
+See [installation
+information](https://info-beamer.com/doc/info-beamer#opensourceversion) for
+more information.
