@@ -25,6 +25,7 @@ Install dependencies:
     libglew1.5-dev libftgl-dev libavcodec-dev
     libswscale-dev libavformat-dev libdevil-dev
     libxrandr-dev libxi-dev lua5.1
+    libxinerama-dev libxcursor-dev
 ```
 
 See [installation
